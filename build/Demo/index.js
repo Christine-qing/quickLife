@@ -80,7 +80,7 @@
 	    {
 	      "type": "text",
 	      "attr": {
-	        "value": function () {return 'Welcome to ' + (this.title)}
+	        "value": "欢迎光临‘快生活’！"
 	      },
 	      "classList": [
 	        "title"
@@ -128,6 +128,21 @@
 	    "backgroundColor": "#09ba07",
 	    "fontSize": "30px",
 	    "color": "#ffffff"
+	  },
+	  ".foo": {
+	    "width": "100px",
+	    "height": "100px",
+	    "borderTopWidth": "1px",
+	    "borderRightWidth": "1px",
+	    "borderBottomWidth": "1px",
+	    "borderLeftWidth": "1px",
+	    "borderStyle": "solid",
+	    "borderTopColor": "#FF0000",
+	    "borderRightColor": "#FF0000",
+	    "borderBottomColor": "#FF0000",
+	    "borderLeftColor": "#FF0000",
+	    "fontSize": "30px",
+	    "color": "#0000FF"
 	  }
 	}
 

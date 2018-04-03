@@ -40,7 +40,7 @@
         "titleBarText": "Love_home",
         "menu": false
       },
-      "": {
+      "view": {
         "titleBarText": "详情页"
       },
       "About": {
