@@ -48,7 +48,7 @@
 /***/ function(module, exports, __webpack_require__) {
 
 	var $app_template$ = __webpack_require__(4)
-	var $app_style$ = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"!!../../node_modules/hap-tools/lib/json-loader.js!../../node_modules/hap-tools/lib/style-loader.js?index=0&type=styles!../../node_modules/hap-tools/lib/fragment-loader.js?index=0&type=styles!./index.ux\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()))
+	var $app_style$ = __webpack_require__(5)
 	var $app_script$ = __webpack_require__(6)
 	
 	$app_define$('@app-component/index', [], function($app_require$, $app_exports$, $app_module$){
@@ -90,7 +90,7 @@
 	      "type": "input",
 	      "attr": {
 	        "type": "button",
-	        "value": "跳转到详情页"
+	        "value": "下一个页面"
 	      },
 	      "classList": [
 	        "btn"
@@ -107,7 +107,30 @@
 	}
 
 /***/ },
-/* 5 */,
+/* 5 */
+/***/ function(module, exports) {
+
+	module.exports = {
+	  ".demo-page": {
+	    "flexDirection": "column",
+	    "justifyContent": "center",
+	    "alignItems": "center"
+	  },
+	  ".title": {
+	    "fontSize": "40px"
+	  },
+	  ".btn": {
+	    "width": "550px",
+	    "height": "86px",
+	    "marginTop": "75px",
+	    "borderRadius": "43px",
+	    "backgroundColor": "#09ba07",
+	    "fontSize": "30px",
+	    "color": "#ffffff"
+	  }
+	}
+
+/***/ },
 /* 6 */
 /***/ function(module, exports) {
 

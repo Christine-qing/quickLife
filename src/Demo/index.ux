@@ -3,7 +3,7 @@
   <div class="demo-page">
     <text class="title">Welcome to {{title}}</text>
     <!-- 点击跳转详情页 -->
-    <input class="btn" type="button" value="跳转到详情页" onclick="routeDetail">
+    <input class="btn" type="button" value="下一个页面" onclick="routeDetail">
    
   
    <input>
@@ -11,6 +11,9 @@
 </template>
 
 <style>
+/*
+*注释需要用多行注释，
+*/
   .demo-page {
     flex-direction: column;
     justify-content: center;
@@ -19,7 +22,7 @@
 
   .title {
     font-size: 40px;
-    <!-- text-align: center; -->
+ 
   }
 
   .btn {
