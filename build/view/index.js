@@ -94,7 +94,7 @@
 	    {
 	      "type": "text",
 	      "attr": {
-	        "value": "更新"
+	        "value": "子页面"
 	      }
 	    }
 	  ]

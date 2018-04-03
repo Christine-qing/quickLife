@@ -2,7 +2,7 @@
   <!-- template里只能有一个根节点 -->
   <div class="demo-page">
     <text class="title">{{text}}</text>
-    <text>更新</text>
+    <text>子页面</text>
   </div>
 </template>
 

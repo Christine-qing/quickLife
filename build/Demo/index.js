@@ -117,7 +117,8 @@
 	    "alignItems": "center"
 	  },
 	  ".title": {
-	    "fontSize": "40px"
+	    "fontSize": "40px",
+	    "textAlign": "center"
 	  },
 	  ".btn": {
 	    "width": "550px",
@@ -156,6 +157,7 @@
 	    _system2.default.push({
 	      uri: '/view'
 	    });
+	    console.log(this);
 	  }
 	};
 	

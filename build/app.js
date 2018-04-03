@@ -75,6 +75,10 @@
 	
 	var _util2 = _interopRequireDefault(_util);
 	
+	var _system = $app_require$('@app-module/system.router');
+	
+	var _system2 = _interopRequireDefault(_system);
+	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	exports.default = {
